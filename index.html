@@ -9,33 +9,31 @@
 </head>
 <body>
     <header>
-        <h1 class="header-text">ETCH-A-SKETCH</h1>
+        <h1><div class="header-text"> ETCH-A-SKETCH</div> </h1>
     </header>
     
-    <div class="container">
-        
+    <main class="container">
         <div class="button-list">
+            <div class="input-container">
+                <div class="sub-text">size: </div>
+                <input type="number"id="grid-size" value="25">
+            </div>
             <button id="clear">CLEAR</button>
-            <button class="color-pick" id="erase">ERASE</button>
+            <button class="color-pick" id="erase"> ERASE</button>
             <button class="color-pick" id="black"> BLACK</button>
             <button class="color-pick" id="rainbow">
                 <div class="text">RAINBOW</div>
             </button>
-
             <input class= "color-pick" type="color" id="color-picker" value="#8F00FF">
-
         </div>
 
         <div class="board">
-            
         </div>
+    </main>
 
-    </div>
-
-    <div class="footer">
+    <footer class="footer">
         <a href="https://github.com/TNGO04/Etch-A-Sketch">GitHub Repository</a> by Trang Ngo
-    </div>
-
+    </footer>
 
     <script src="./javascript.js"></script>
 </body>

@@ -1,0 +1,154 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background: rgb(241,255,196);
+    background: radial-gradient(circle, rgba(241,255,196,1) 0%, rgba(198,226,233,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15 px;
+
+}
+
+button {
+    flex: 0 0 auto;
+    padding: 5px 10px;
+    background-color: white;
+    color: rgba(77, 46, 87, 0.933);
+    font-family: 'Courier New';
+    font-weight: 500;
+    font-size: 1.1em;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 193, 207);
+    text-shadow: -2px 1px rgb(231, 217, 247);
+    text-align: center;
+    filter: drop-shadow(-2px 1px 5px rgb(184, 179, 180));
+
+}
+
+.button-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 25px;
+
+    background: rgb(131,58,180);
+    background-color: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+
+    text-shadow: 0 0 15px rgb(222, 215, 226)
+}
+
+
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    color: rgba(77, 46, 87, 0.933);
+}
+
+.container {
+    flex: 1 1 auto;
+    display: flex;
+
+
+}
+
+.board {
+    margin: auto;
+    width: 70vh;
+    height: 70vh;
+    background-color: white;
+    border-image: 
+    linear-gradient( 45deg,
+    #CA4246 0, 
+    #E16541 6.666%, 
+    #E16541 15.333%, 
+    #F18F43 23.333%, 
+    #F18F43 30%, 
+    #adbd7a 37%, 
+    #99aa60 46.666%, 
+    #476098 75.666%, 
+    #476098 83.333%, 
+    #A7489B 100%) 1;
+    border-width: 20px;
+    border-style: solid;
+
+    display:flex;
+    flex-direction: column;
+    gap: 0px;
+
+}
+
+a {
+    text-decoration-line: none;
+    
+}
+
+#color-picker {
+
+    width: 80px;
+    height: 30px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(222, 215, 226);
+    box-shadow: inset 0px 0px 0px 15px white;
+    text-shadow: -2px 1px rgb(231, 217, 247);
+    filter: drop-shadow(-2px 1px 5px rgb(184, 179, 180));
+
+    background-color: white;
+
+}
+
+.color-pick {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    color:rgba(77, 46, 87, 0.933);
+    font-size: 1em;
+}
+
+#black {
+    color: rgb(58, 58, 58);
+}
+
+#rainbow .text {
+    background:   linear-gradient( 90deg,
+    #CA4246 0%, 
+    #E16541 6.666%, 
+    #d37c39 23.333%, 
+    #71c769 37%, 
+    #476098 83.333%, 
+    #A7489B 100%);
+        
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-shadow: none;
+    background-color: white;
+}
+
+
+
+
